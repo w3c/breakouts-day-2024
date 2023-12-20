@@ -1,0 +1,31 @@
+name: Initialize labels
+
+on:
+  workflow_dispatch:
+
+jobs:
+  init-labels:
+    name: Initialize repository labels
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Checkout latest version of release script
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      # Note: no "package-lock.json" and no "npm ci" on purpose to retrieve
+      # latest version of w3c/tpac-breakouts tools (which are unversioned)
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the init labels script
+        run: npx init-repo-labels ${{ github.repository }}
+        env:
+          # A valid Personal Access Token (classic version) with project
+          # and public_repo scope.
+          GRAPHQL_TOKEN: ${{ secrets.GRAPHQL_TOKEN }}
