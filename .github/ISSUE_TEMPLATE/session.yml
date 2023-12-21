@@ -1,5 +1,5 @@
 name: Session proposal
-description: Propose to chair a breakout session at W3C Innovation Day
+description: Propose to chair a breakout session at W3C Breakouts Day
 labels: ["session"]
 body:
 # This repo includes code that validates instances of the data below. 
