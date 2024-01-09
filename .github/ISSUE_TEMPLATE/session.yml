@@ -29,6 +29,21 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        Please choose a type of session. A breakout session (smaller set of participants, at most 50 minutes) will be scheduled in parallel with other breakout sessions. A plenary session (larger and broader audience, at most 10 minutes) will not be scheduled in parallel with any other sessions.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Session type
+      options:
+        - Breakout (Default)
+        - Plenary
+    validations:
+      required: true
+
   - type: textarea
     id: chairs
     attributes:
