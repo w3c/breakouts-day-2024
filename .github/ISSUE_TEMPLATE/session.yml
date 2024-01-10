@@ -101,9 +101,9 @@ body:
   - type: textarea
     id: agenda
     attributes:
-      label: Agenda for the meeting.
+      label: Agenda (link or inline)
       description: |
-        This part may be completed closer to the meeting. As the agenda becomes available, you will be able to update your session description in markdown to **detail the agenda or link to an external agenda**.
+        In this section, either **add a link** to an external agenda, or **provide the agenda inline** using simple markdown. This section may be completed closer to the meeting. 
 
   - type: markdown
     attributes:
