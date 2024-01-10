@@ -34,7 +34,7 @@ body:
     attributes:
       label: Session type
       description: |      
-        Please choose a type of session. A breakout session (smaller set of participants, deep dive on a topic, at most 50 minutes) will be scheduled in parallel with other breakout sessions. A plenary session (larger and broader audience, raising awareness, at most 10 minutes) will not be scheduled in parallel with any other sessions.
+        Please choose a type of session. A **breakout session** (smaller set of participants, deep dive on a topic, at most 50 minutes) will be scheduled in parallel with other breakout sessions. A **plenary session** (larger and broader audience, raising awareness, at most 10 minutes) will not be scheduled in parallel with any other sessions.
       options:
         - Breakout (Default)
         - Plenary
