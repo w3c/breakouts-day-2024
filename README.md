@@ -9,7 +9,7 @@ This repo is for the W3C community to propose and organize breakout sessions for
 
 # Participation
 
-Anyone with a W3C account (including non-Members) can participate in any session. No fee or registration is required.
+Anyone with a W3C account (including non-Members) can participate in any session. No fee or registration is required. Members may invite guests to participate.
 
 # Who can propose a session
 
