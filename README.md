@@ -19,4 +19,3 @@ Anyone with a W3C account (including non-Members) can participate in any session
 * Employees of a W3C member organization
 * W3C Evangelists
 * W3C staff or W3C Chapters staff
-* Invited guests, including guests invited by W3C Members.
