@@ -66,8 +66,7 @@ body:
     attributes:
       label: IRC channel (Optional)
       description: |
-        Shortname for the irc.w3.org channel (e.g., `#my-fav-session`). If not provided, shortname will be generated from title. For plenary sessions,
-	please do not provide a value (as it will be overridden by the channel selected by the meeting planners).
+        Shortname for the irc.w3.org channel (e.g., `#my-fav-session`). If not provided, shortname will be generated from title. For plenary sessions, please do not provide a value (as it will be overridden by the channel selected by the meeting planners).
     validations:
       required: false
 
