@@ -84,7 +84,7 @@ jobs:
           CHAIR_W3CID: ${{ vars.CHAIR_W3CID }}
 
       - name: Create/Update calendar entry
-        run: npx update-calendar ${{ inputs.sessionNumber }} quiet
+        run: npx update-calendar ${{ github.event.issue.number }} quiet
         env:
           # See above for PROJECT_XX variables
           PROJECT_OWNER: ${{ vars.PROJECT_OWNER_TYPE || 'organization' }}/${{ vars.PROJECT_OWNER || 'w3c' }}
