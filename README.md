@@ -9,6 +9,10 @@ This repo is for the W3C community to propose and organize breakout sessions for
 * [Good Practices for Session Chairs](https://github.com/w3c/tpac-breakouts/wiki/Good-Practices-for-Session-Chairs), including instructions for proposing a breakout session, training for your session, and tips for running your session.
 * [Breakout policies](https://github.com/w3c/breakouts-day-2024/wiki/Policies) regarding session scope, participation, and how the meeting planners optimize scheduling and room assignments.
 
+# Audience
+
+In response to enthusiasm for TPAC breakout sessions, the W3C is organizing an experimental ‘remote breakout session event’ called W3C Breakouts Day 2024. As with TPAC, the goal of the day is to foster discussion among the full W3C community about new or existing topics.
+
 # Participation
 
 Anyone with a W3C account (including non-Members) can participate in any session. No fee or registration is required. Members may invite guests to participate.
