@@ -80,7 +80,7 @@ body:
     attributes:
       label: Other sessions where we should avoid scheduling conflicts (Optional)
       description: |
-        Identify sessions by their issue number in this GitHub repo (e.g., `#32, #18`). Space- or comma-separated list.
+        Identify sessions by their issue number in this GitHub repo (e.g., `#32, #18`). Space- or comma-separated list. For any other information about conflicts, please use the section on instructions for meeting planners.
     validations:
       required: false
 
